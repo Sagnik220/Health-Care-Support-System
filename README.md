@@ -49,3 +49,9 @@
 - LED light's Red,Green,Yellow
 
 ```
+
+### Setup Picture:
+
+<img src="images\setup.jpg"  width="900" height="600">
+
+
