@@ -1,4 +1,4 @@
-###  Traffic-Light-Automation (OpenCV & Mediapipe)
+###  Traffic-Light-Automation
 
 ### How to set up locally?
 
@@ -25,3 +25,27 @@
 ```
 - pip list
 ```  
+
+### Software Used:
+
+- Language
+```
+- Python
+```
+- Libraries
+```
+- OpenCV
+- Mediapipe
+- pyfirmata
+- controller
+```
+
+### Hardware Used:
+
+```
+- Arduino UNO
+- Jumper Wires
+- Breadboard
+- LED light's Red,Green,Yellow
+
+```
