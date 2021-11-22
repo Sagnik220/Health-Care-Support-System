@@ -1,4 +1,4 @@
-###  Traffic-Light-Automation
+###  Traffic-Light-Automation using Arduino UNO OpenCV & Mediapipe
 
 ### How to set up locally?
 
