@@ -6,9 +6,9 @@ The idea of the project is to automate traffic light system using **Mediapipe,Op
 ```
 -Encoding
 ```
-- 1 --> Green Light
-- 2 --> Yellow Light
-- 3 --> Red Light
+- 1 fingers--> Green Light
+- 2 fingers--> Yellow Light
+- 3 fingers --> Red Light
 ```
 ```
 
