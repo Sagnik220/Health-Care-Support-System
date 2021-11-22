@@ -3,6 +3,17 @@
 The idea of the project is to automate traffic light system using **Mediapipe,OpenCV and Arduino.** We have taken the idea of Handtracking using the Mediapipe Library to count the finger's to light up the LED's. 
 
 
+```
+-Encoding
+```
+- 1 --> Green Light
+- 2 --> Yellow Light
+- 3 --> Red Light
+```
+```
+
+### What is Mediapipe?
+
 **MediaPipe is a cross-platform framework for building multimodal applied machine learning pipelines. MediaPipe is a framework for building multimodal (eg. video, audio, any time series data), cross platform (i.e Android, iOS, web, edge devices) applied ML pipelines.**
 
 ### How to set up locally?
