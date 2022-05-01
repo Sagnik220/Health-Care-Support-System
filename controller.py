@@ -1,5 +1,4 @@
 import pyfirmata
-
 comport='COM3'
 
 board=pyfirmata.Arduino(comport)
@@ -30,16 +29,8 @@ def led(total):
         led_2.write(0)
         led_3.write(0)
         led_4.write(1)
-    if total==4:
-        led_1.write(0)
-        led_2.write(0)
-        led_3.write(0)
-        led_4.write(0)
-    if total==5:
-        led_1.write(0)
-        led_2.write(0)
-        led_3.write(0)
-        led_4.write(0)
+       
+       
     
         
         

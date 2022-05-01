@@ -1,8 +1,10 @@
+#Importing Libraries
 import cv2
 import mediapipe as mp
 import time
 import controller as cnt
- 
+from emailintegration import MailSender
+from whatsappintegration import sendmessage
 
 time.sleep(2.0)
 
@@ -14,6 +16,7 @@ tipIds=[4,8,12,16,20]
 
 video=cv2.VideoCapture(0)
 
+total=0
 with mp_hand.Hands(min_detection_confidence=0.5,
                min_tracking_confidence=0.5) as hands:
     while True:
@@ -57,24 +60,24 @@ with mp_hand.Hands(min_detection_confidence=0.5,
                     2, (255, 0, 0), 5)
                 cv2.putText(image, "LED", (100, 375), cv2.FONT_HERSHEY_SIMPLEX,
                     2, (255, 0, 0), 5)
-                
             elif total==2:
                 cv2.rectangle(image, (20, 300), (270, 425), (0, 255, 0), cv2.FILLED)
                 cv2.putText(image, "2", (45, 375), cv2.FONT_HERSHEY_SIMPLEX,
                     2, (255, 0, 0), 5)
                 cv2.putText(image, "LED", (100, 375), cv2.FONT_HERSHEY_SIMPLEX,
                     2, (255, 0, 0), 5)
-                
             elif total==3:
                 cv2.rectangle(image, (20, 300), (270, 425), (0, 255, 0), cv2.FILLED)
                 cv2.putText(image, "3", (45, 375), cv2.FONT_HERSHEY_SIMPLEX,
                     2, (255, 0, 0), 5)
                 cv2.putText(image, "LED", (100, 375), cv2.FONT_HERSHEY_SIMPLEX,
                     2, (255, 0, 0), 5)
-            
         cv2.imshow("Frame",image)
         k=cv2.waitKey(1)
         if k==ord('q'):
             break
 video.release()
 cv2.destroyAllWindows()
+
+sendmessage(total)
+MailSender(total)
