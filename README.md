@@ -45,26 +45,17 @@ Pywhatkit module utilizes the WhatsApp webpage to automate messages sending to a
 **Simple Mail Transfer Protocol (SMTP) is a protocol, which handles sending email and routing e-mail between mail servers.** 
 Python provides a smtplib module, which defines an SMTP client session object that can be used to send mail to any Internet machine with an SMTP or ESMTP listener daemon.
 				
+<img src="images\smtp.jpg" width="900" height="600">
+
 
 
 #### 5. 	High Level Design of the Application
 
 
-<img src="SystemDesign.png"  width="900" height="600">
+<img src="images\SystemDesign.jpg" width="1000" height="600">
 
 
-```
-Encoding
-```
-- 1 fingers--> Green Light
-- 2 fingers--> Yellow Light
-- 3 fingers --> Red Light
-```
-```
 
-### What is Mediapipe?
-
-**MediaPipe is a cross-platform framework for building multimodal applied machine learning pipelines. MediaPipe is a framework for building multimodal (eg. video, audio, any time series data), cross platform (i.e Android, iOS, web, edge devices) applied ML pipelines.**
 
 ### How to set up locally?
 
