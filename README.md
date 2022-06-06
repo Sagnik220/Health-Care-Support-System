@@ -50,7 +50,7 @@ Python provides a smtplib module, which defines an SMTP client session object th
 #### 5. 	High Level Design of the Application
 
 
-<img src="images\SystemDesign.png"  width="900" height="600">
+<img src="SystemDesign.png"  width="900" height="600">
 
 
 ```
